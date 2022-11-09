@@ -2,8 +2,8 @@ Changelog
 =========
 
 
-1.7 (unreleased)
-----------------
+1.6.post0 (2022-11-09)
+----------------------
 
 - Be more specific in the import_translation endpoint condition to install in a site with p.a.multilingual 1.x
   [erral]
