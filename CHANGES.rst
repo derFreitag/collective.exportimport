@@ -2,6 +2,12 @@ Changelog
 =========
 
 
+1.6.post1 (unreleased)
+----------------------
+
+- Nothing changed yet.
+
+
 1.6.post0 (2022-11-09)
 ----------------------
 
