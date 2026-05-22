@@ -1,7 +1,6 @@
 # -*- coding: utf-8 -*-
 """Installer for the collective.exportimport package."""
 
-from setuptools import find_packages
 from setuptools import setup
 
 import sys
@@ -17,7 +16,6 @@ long_description = "\n\n".join(
 
 install_requires = [
     "hurry.filesize",
-    "setuptools",
     "six",
 ]
 
@@ -56,17 +54,15 @@ setup(
         "Intended Audience :: Developers",
         "Environment :: Web Environment",
         "Framework :: Plone",
+        "Framework :: Plone :: 6.2",
         "Framework :: Plone :: Addon",
         "Framework :: Plone :: 4.3",
         "Framework :: Plone :: 5.0",
         "Framework :: Plone :: 5.1",
         "Framework :: Plone :: 5.2",
-        "Framework :: Plone :: 6.0",
         "Programming Language :: Python",
         "Programming Language :: Python :: 2.7",
         "Programming Language :: Python :: 3.7",
-        "Programming Language :: Python :: 3.8",
-        "Programming Language :: Python :: 3.9",
         "Programming Language :: Python :: 3.10",
         "Programming Language :: Python :: 3.11",
         "Operating System :: OS Independent",
@@ -83,9 +79,6 @@ setup(
         "Documentation": "https://github.com/collective/collective.exportimport#readme",
     },
     license="GPL version 2",
-    packages=find_packages("src", exclude=["ez_setup"]),
-    namespace_packages=["collective"],
-    package_dir={"": "src"},
     include_package_data=True,
     zip_safe=False,
     python_requires=">=2.7, !=3.0.*, !=3.1.*, !=3.2.*, !=3.3.*, !=3.4.*, !=3.5.*",
