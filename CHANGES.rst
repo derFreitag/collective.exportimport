@@ -5,8 +5,8 @@ Changelog
 1.17 (unreleased)
 -----------------
 
-- Nothing changed yet.
-
+- Switch to PEP 420 native namespace.
+  [gforcada]
 
 1.16 (2026-02-27)
 -----------------
